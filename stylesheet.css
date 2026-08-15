@@ -13,7 +13,7 @@ body{
 }
 #header{
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #efeeee;
     padding: 5px;
     border-bottom: 2px solid 000000;
 }
@@ -27,4 +27,58 @@ body{
 #btn:hover{
     background-color: black;
     color: white;
+}
+#main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.col-2{
+    border: 2px solid teal;
+    padding: 5px;
+}
+.col-3{
+    border: 2px solid teal;
+    padding: 5px;
+}
+span{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#style{
+    font-size: 11px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    gap: 7px;
+    margin: 10px;
+    align-content: flex-start;
+}
+.layout{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: rgb(17, 86, 206);
+}
+.red{
+    background-color: rgb(214, 20, 20);
+}
+.yellow{
+    background-color: rgb(228, 228, 18);
+}
+.green{
+    background-color: rgb(55, 192, 17);
+}
+.brown{
+    background-color: rgb(85, 40, 40);
 }
