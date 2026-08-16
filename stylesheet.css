@@ -12,6 +12,21 @@ body{
     border: 3px solid black;
     margin: 50px auto;
 }
+.card{
+    position: relative;
+}
+.sale-tag{
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    background-color: rgb(231, 47, 47);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 12px;
+    letter-spacing: 1px;
+    z-index: 10;
+}
 #header{
     text-align: center;
     background-color: #efeeee;
@@ -43,15 +58,15 @@ body{
     flex-shrink: 0;
 }
 .col-2{
-    padding: 25px;
-    font-size: 13px;
+    padding: 10px 30px;
+    font-size: 16px;
 }
 h3{
     font-size: large;
 }
 .col-3{
-    padding: 25px;
-    font-size: 13px;
+    padding: 10px 30px;
+    font-size: 16px;
 }
 h4{
     font-size: larg;
